@@ -1,13 +1,13 @@
 {
-  "name": "@mrkpatchaa/electron-icon-maker",
-  "version": "0.0.2",
-  "description": "An icon generator to generate all the icon files needed for electron packaging",
+  "name": "@mrkpatchaa/electron-icon-maker-forge",
+  "version": "0.0.1",
+  "description": "An icon generator to generate all the icon files needed for electron packaging with forge",
   "bin": {
-    "electron-icon-maker": "index.js"
+    "electron-icon-maker-forge": "index.js"
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js -i=electron.png -o=./ -n electron"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,13 @@
     "args": "^5.0.3",
     "icon-gen": "3.0.1",
     "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "npmignore": "^0.3.0",
+    "prettier": "^2.8.4"
   }
 }
