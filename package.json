@@ -7,7 +7,13 @@
   },
   "main": "index.js",
   "scripts": {
+    "prepack": "npmignore --auto",
     "test": "node index.js -i=electron.png -o=./ -n electron"
+  },
+  "publishConfig": {
+    "ignore": [
+      "electron.png"
+    ]
   },
   "repository": {
     "type": "git",
