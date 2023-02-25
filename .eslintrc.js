@@ -4,15 +4,14 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  extends: ['plugin:prettier/recommended'],
-  overrides: [
-  ],
+  extends: ["plugin:prettier/recommended"],
+  overrides: [],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: "latest",
   },
   rules: {
-      "prettier/prettier": "error",
-      "arrow-body-style": "off",
-      "prefer-arrow-callback": "off"
+    "prettier/prettier": "error",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
   },
 };
