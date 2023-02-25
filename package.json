@@ -1,6 +1,6 @@
 {
-  "name": "electron-icon-maker",
-  "version": "0.0.5",
+  "name": "@mrkpatchaa/electron-icon-maker",
+  "version": "0.0.1",
   "description": "An icon generator to generate all the icon files needed for electron packaging",
   "bin": {
     "electron-icon-maker": "index.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaretburkett/electron-icon-maker.git"
+    "url": "git+https://github.com/mrkpatchaa/electron-icon-maker.git"
   },
   "keywords": [
     "electron",
@@ -21,12 +21,12 @@
     "png",
     "ico"
   ],
-  "author": "Jaret Burkett <jaretburkett@gmail.com> (https://github.com/jaretburkett/)",
+  "author": "Médédé Raymond KPATCHAA <kraymond70@gmail.com> (https://github.com/mrkpatchaa/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaretburkett/electron-icon-maker/issues"
+    "url": "https://github.com/mrkpatchaa/electron-icon-maker/issues"
   },
-  "homepage": "https://github.com/jaretburkett/electron-icon-maker",
+  "homepage": "https://github.com/mrkpatchaa/electron-icon-maker",
   "dependencies": {
     "args": "^5.0.3",
     "icon-gen": "3.0.1",
